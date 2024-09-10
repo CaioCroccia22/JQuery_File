@@ -9,6 +9,7 @@ $(document).ready(function(){
 
     $('form').on('submit', function(e){
         e.preventDefault();
-        console.log('submit');
+        const enderecoDaNovaImagem = $('#endereco-imagem-nova').val();
+        console.log(enderecoDaNovaImagem);
     })
-});
+});     
