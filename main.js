@@ -22,7 +22,7 @@ $(document).ready(function(){
 
         //Adicionando o novo item a lista       
         $(novoItem).appendTo('ul');
-        $(novoItem).fadeIn();
+        $(novoItem).fadeIn(1000);
 
         //Limpando o campo
         $('#endereco-imagem-nova').val(' ');
